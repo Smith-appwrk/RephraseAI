@@ -57,6 +57,16 @@
                             "inputType": "textarea"
                         }
                     ]
+                },
+                {
+                    "id": "rephrase",
+                    "context": [
+                        "message"
+                    ],
+                    "description": "Rephrase text and correct grammatical mistakes",
+                    "title": "Correct & Rephrase",
+                    "type": "action",
+                    "fetchTask": false
                 }
             ]
         }

@@ -3,21 +3,24 @@
     "body": [
         {
             "type": "TextBlock",
-            "text": "${title}",
+            "text": "Rephrased Text",
             "wrap": true,
-            "size": "Large"
+            "size": "Large",
+            "weight": "Bolder"
         },
         {
             "type": "TextBlock",
-            "text": "${subTitle}",
+            "text": "Original: ${originalText}",
+            "wrap": true,
+            "size": "Medium",
+            "weight": "Lighter",
+            "isSubtle": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "${correctedText}",
             "wrap": true,
             "size": "Medium"
-        },
-        {
-            "type": "TextBlock",
-            "text": "${text}",
-            "wrap": true,
-            "size": "Small"
         }
     ],
     "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",

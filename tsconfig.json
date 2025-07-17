@@ -2,7 +2,7 @@
   "compilerOptions": {
     "declaration": true,
     "target": "es2017",
-    "module": "commonjs",
+    "module": "nodenext",
     "outDir": "./lib",
     "rootDir": "./",
     "moduleResolution": "nodenext",
@@ -10,6 +10,6 @@
     "incremental": true,
     "tsBuildInfoFile": "./lib/.tsbuildinfo",
     "resolveJsonModule": true,
-    "esModuleInterop": true,
+    "esModuleInterop": true
   }
 }
