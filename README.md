@@ -25,13 +25,13 @@ This app template implements action command that allows you to present your user
 
 ## What's included in the template
 
-| Folder        | Contents                                   |
-| ------------- | ------------------------------------------ |
-| `.vscode/`    | VSCode files for debugging                 |
-| `appPackage/` | Templates for the application manifest     |
-| `env/`        | Environment files                          |
-| `infra/`      | Templates for provisioning Azure resources |
-| `src/`        | The source code for the action application |
+| Folder        | Contents                                     |
+| ------------- | -------------------------------------------- |
+| `.vscode/`    | VSCode files for debugging                   |
+| `appPackage/` | Templates for the application manifest |
+| `env/`        | Environment files                            |
+| `infra/`      | Templates for provisioning Azure resources   |
+| `src/`        | The source code for the action application   |
 
 The following files can be customized and demonstrate an example implementation to get you started.
 
@@ -42,11 +42,11 @@ The following files can be customized and demonstrate an example implementation 
 
 The following are Microsoft 365 Agents Toolkit specific project files. You can [visit a complete guide on Github](https://github.com/OfficeDev/TeamsFx/wiki/Teams-Toolkit-Visual-Studio-Code-v5-Guide#overview) to understand how Microsoft 365 Agents Toolkit works.
 
-| File                        | Contents                                                                                                                                                 |
-| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `m365agents.yml`            | This is the main Microsoft 365 Agents Toolkit project file. The project file defines two primary things: Properties and configuration Stage definitions. |
-| `m365agents.local.yml`      | This overrides `m365agents.yml` with actions that enable local execution and debugging.                                                                  |
-| `m365agents.playground.yml` | This overrides `m365agents.yml` with actions that enable local execution and debugging in Microsoft 365 Agents Playground.                               |
+| File                 | Contents                                                                                                                                  |
+| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| `m365agents.yml`       | This is the main Microsoft 365 Agents Toolkit project file. The project file defines two primary things: Properties and configuration Stage definitions. |
+| `m365agents.local.yml` | This overrides `m365agents.yml` with actions that enable local execution and debugging.                                                     |
+| `m365agents.playground.yml`| This overrides `m365agents.yml` with actions that enable local execution and debugging in Microsoft 365 Agents Playground.                            |
 
 ## Extend the template
 
@@ -64,3 +64,4 @@ Following documentation will help you to extend the template.
 - [Publish the app to your organization or the Microsoft app store](https://learn.microsoft.com/microsoftteams/platform/toolkit/publish)
 - [Develop with Microsoft 365 Agents Toolkit CLI](https://aka.ms/teams-toolkit-cli/debug)
 - [Preview the app on mobile clients](https://aka.ms/teamsfx-mobile)
+
